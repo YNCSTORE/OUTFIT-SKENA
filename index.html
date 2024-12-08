@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Penjualan</title>
+    <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "WebPage",
+          "name": "Toko Kami",
+          "description": "Website penjualan produk kami",
+          "url": "https://example.com",
+          "image": "https://example.com/logo.png",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Toko Kami",
+            "logo": "https://example.com/logo.png"
+          },
+          "mainEntity": {
+            "@type": "Product",
+            "name": "Produk 1",
+            "description": "Deskripsi singkat tentang produk 1",
+            "image": "https://example.com/produk1.jpg",
+            "price": "100000",
+            "priceCurrency": "IDR",
+            "availability": "InStock"
+          },
+          "offers": {
+            "@type": "Offer",
+            "price": "100000",
+            "priceCurrency": "IDR",
+            "availability": "InStock",
+            "seller": {
+              "@type": "Organization",
+              "name": "Toko Kami"
+            }
+          }
+        }
+        </script>
+    <link rel="stylesheet" href="yahya.css">
+</head>
+<body>
+    <header>
+        <h1>Selamat Datang di Toko Kami</h1>
+        <div class="keranjang">
+            <h2>Keranjang: <span id="total-harga">Rp 0</span></h2>
+        </div>
+    </header>
+
+    <main>
+        <section class="produk">
+            <h2>Produk Kami</h2>
+            <div class="item-produk" data-nama="Produk 1" data-harga="100000">
+                <img src="vest.jpeg" alt="Produk 1" width="200" height="200">
+                <h3>Nama Produk 1</h3>
+                <p>Rompi skena</p>
+                <p>Harga: Rp 100.000</p>
+                <div class="rating" data-rating="0">
+
+                    <span class="star" data-value="1">&#9733;</span>
+            
+                    <span class="star" data-value="2">&#9733;</span>
+            
+                    <span class="star" data-value="3">&#9733;</span>
+            
+                    <span class="star" data-value="4">&#9733;</span>
+            
+                    <span class="star" data-value="5">&#9733;</span>
+            
+                </div>
+                <button class="tambah-ke-keranjang">Tambah ke Keranjang</button>
+            </div>
+            <div class="item-produk" data-nama="Produk 2" data-harga="150000">
+                <img src="t-shirt.jpeg" alt="Produk 2" width="200" height="200">
+                <h3>Nama Produk 2</h3>
+                <p>Kaos anak skena</p>
+                <p>Harga: Rp 150.000</p>
+                <div class="rating" data-rating="0">
+
+                    <span class="star" data-value="1">&#9733;</span>
+            
+                    <span class="star" data-value="2">&#9733;</span>
+            
+                    <span class="star" data-value="3">&#9733;</span>
+            
+                    <span class="star" data-value="4">&#9733;</span>
+            
+                    <span class="star" data-value="5">&#9733;</span>
+            
+                </div>
+                <button class="tambah-ke-keranjang">Tambah ke Keranjang</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Toko Kami. Semua hak dilindungi.</p>
+    </footer>
+
+    <script src="yahya.js"></script>
+</body>
+</html>

@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+.keranjang {
+    margin-top: 10px;
+}
+
+.produk {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.item-produk {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    width: 200px;
+}
+
+.item-produk img {
+    max-width: 100%;
+}
+.rating {
+    display: flex;
+    cursor: pointer;
+}
+
+.star {
+    font-size: 24px;
+    color: gray;
+}
+
+.star.selected {
+    color: gold;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f1f1f1;
+}
